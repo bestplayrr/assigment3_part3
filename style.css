@@ -37,3 +37,10 @@ body{
   min-height:100dvh;
   gap:16px;
   padding:16px;
+
+/* REGIONS */
+.site-header{ grid-area:header; background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:24px; text-align:center; }
+.site-nav{ grid-area:nav; background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:12px 16px; }
+.site-main{ grid-area:main; display:grid; gap:16px; align-content:start; }
+.site-aside{ grid-area:aside; background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:16px; }
+.site-footer{ grid-area:footer; background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:12px; text-align:center; color:var(--muted); }
