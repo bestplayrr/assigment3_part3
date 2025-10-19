@@ -55,3 +55,20 @@ body{
   padding:8px 12px; border-radius:8px; border:1px solid var(--border); background:#fafbff;
 }
 .site-nav a:hover{ background:#f0f5ff; }
+
+/* CARDS */
+.card{
+  background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:16px;
+}
+.card h2{ margin-top:0; color:var(--brand); }
+
+/* ASIDE */
+.widget + .widget{ margin-top:16px; }
+.widget h3{ margin:0 0 8px 0; color:var(--brand); }
+.widget ul{ margin:0; padding-left:18px; }
+
+/* TYPE */
+h1,h2,h3{ line-height:1.25; }
+h1{ margin:0 0 6px 0; }
+.site-header p{ margin:0; color:var(--muted); }
+
