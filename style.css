@@ -15,6 +15,7 @@ Description: Grid-based page layout with flexbox components; responsive breakpoi
 }
 
 *{ box-sizing:border-box; }
+
 html, body{ margin:0; padding:0; }
 
 body{
@@ -22,8 +23,6 @@ body{
   color:var(--ink);
   background:var(--bg);
   line-height:1.6;
-}
-
 
   /* GRID LAYOUT */
   display:grid;
@@ -37,6 +36,7 @@ body{
   min-height:100dvh;
   gap:16px;
   padding:16px;
+}
 
 /* REGIONS */
 .site-header{ grid-area:header; background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:24px; text-align:center; }
@@ -84,4 +84,3 @@ h1{ margin:0 0 6px 0; }
       "footer";
   }
 }
-
