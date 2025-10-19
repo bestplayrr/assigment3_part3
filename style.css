@@ -4,3 +4,15 @@ File: style.css
 Date: October 2025
 Description: Grid-based page layout with flexbox components; responsive breakpoint.
 */
+
+:root{
+  --ink:#222;
+  --muted:#666;
+  --brand:#0a5bd3;
+  --bg:#f6f7fb;
+  --panel:#fff;
+  --border:#e6e8ef;
+}
+
+*{ box-sizing:border-box; }
+html, body{ margin:0; padding:0; }
