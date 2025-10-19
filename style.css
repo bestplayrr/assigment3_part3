@@ -16,3 +16,10 @@ Description: Grid-based page layout with flexbox components; responsive breakpoi
 
 *{ box-sizing:border-box; }
 html, body{ margin:0; padding:0; }
+
+body{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+  line-height:1.6;
+}
