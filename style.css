@@ -44,3 +44,14 @@ body{
 .site-main{ grid-area:main; display:grid; gap:16px; align-content:start; }
 .site-aside{ grid-area:aside; background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:16px; }
 .site-footer{ grid-area:footer; background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:12px; text-align:center; color:var(--muted); }
+
+/* NAV — FLEXBOX */
+.site-nav ul{
+  list-style:none; margin:0; padding:0;
+  display:flex; flex-wrap:wrap; gap:12px;
+}
+.site-nav a{
+  display:inline-block; text-decoration:none; color:var(--brand);
+  padding:8px 12px; border-radius:8px; border:1px solid var(--border); background:#fafbff;
+}
+.site-nav a:hover{ background:#f0f5ff; }
